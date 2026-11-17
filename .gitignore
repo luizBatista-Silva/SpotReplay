@@ -1,0 +1,75 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+.aws/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Go build output, coverage, and local tooling
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+coverage.html
+
+# FFmpeg and replay runtime artifacts
+*.log
+recordings/
+replays/
+media/generated/
+media/recordings/
+media/replays/
+
+# SQLite runtime databases and sidecars
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Frontend dependencies and generated output
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.vite/
+build/
+public/build/
+
+# Test and tool caches
+.cache/
+.eslintcache
+.stylelintcache
+.nyc_output/
+tmp/
+temp/
+
